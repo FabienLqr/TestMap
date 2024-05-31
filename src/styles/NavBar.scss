@@ -1,0 +1,14 @@
+nav {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  a {
+    color: black;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 20%;
+    background-color: rgb(5, 77, 145);
+    box-shadow: 5px 5px 5px 0px black;
+  }
+}
