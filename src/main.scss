@@ -1,6 +1,9 @@
 @import "./styles/header.scss";
 @import "./styles/NavBar.scss";
+@import "./styles/Footer.scss";
 
 * {
   background-color: blueviolet;
+  margin: 0;
+  box-sizing: border-box;
 }
