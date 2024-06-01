@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import Home from "./pages/Home.jsx";
 import Map from "./pages/Map.jsx";
+import Leaflet from "./pages/Leaflet.jsx";
 
 import "./main.scss";
 
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/map",
         element: <Map />,
+      },
+      {
+        path: "/leaflet",
+        element: <Leaflet />,
       },
     ],
   },
