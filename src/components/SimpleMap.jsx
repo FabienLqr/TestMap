@@ -6,7 +6,7 @@ import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 export default function SimpleMap() {
   return (
     <ComposableMap>
-      <Geographies geography="/custom.geo.json">
+      <Geographies geography="/crashtest.geo.json">
         {({ geographies }) =>
           geographies.map((geo) => (
             <Geography key={geo.rsmKey} geography={geo} />
