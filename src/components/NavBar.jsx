@@ -5,7 +5,6 @@ function NavBar() {
     <>
       <nav>
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/map">Map</NavLink>
         <NavLink to="/leaflet">Leaflet Map</NavLink>
       </nav>
       <main>
