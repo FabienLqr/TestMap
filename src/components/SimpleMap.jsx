@@ -1,3 +1,3 @@
 export default function SimpleMap() {
-  return <>coucou</>;
+  return <p>React Simple map ne fonctionne pas.</p>;
 }
